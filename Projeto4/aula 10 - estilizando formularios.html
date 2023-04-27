@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aula 10</title>
+    <link rel="stylesheet" href="css/Estilizando formulario.css">
+</head>
+<body>
+    
+    <h2>Estilizando formulários</h2>
+
+    <form>
+        <fieldset> <!--fieldset são usados para agrupar dados semelhantes-->
+            <legend>Detalhes de contato</legend>
+            <!--Legend são legendas para o agrupamento de dados-->
+        
+        <div>
+            <label for="nome">Nome:</label> <!--Label que quer dizer etiqueta ou rotulo-->
+             <!--Usaremos o label para identificar nossas caixas de texto-->      
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label> <!--Label que quer dizer etiqueta ou rotulo-->
+             <!--Usaremos o label para identificar nossas caixas de texto-->      
+            <input type="text" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="URL">URL:</label> <!--Label que quer dizer etiqueta ou rotulo-->
+             <!--Usaremos o label para identificar nossas caixas de texto-->      
+            <input type="text" name="URL" id="URL">
+        </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentarios</legend>
+
+            <div>
+                <label for="Msg">Mensagem</label>
+                <textarea name="Msg" id="Msg"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lembra de min?</legend>
+            <div>
+                <label>
+                    <input type="radio" name="lembrar" id="sim">Sim
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input type="radio" name="lembrar" id="nao">Não
+                </label>
+            </div>
+
+        </fieldset>
+
+        
+    </form>
+</body>
+</html>

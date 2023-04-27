@@ -1,0 +1,28 @@
+body{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif, sans-serif;
+}
+
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid rgb(160, 42, 42);
+    background: #f8f8f8;
+}
+
+legend{
+    font-weight: bold; /*deixar em negrito*/
+}
+
+label{ /*por padrao label é um elemento inline*/
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"]{ /*Seletor de atributo, onde podemos selecionar o tipo de atributo*/
+    width: 20em;
+}
+
+textarea{
+    width: 20em;
+    height: 10em;
+}
